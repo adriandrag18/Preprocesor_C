@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/CLionProjects/SO_Tema1/HashMap.c
+windows.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+HashMap.h
+D:/CLionProjects/SO_Tema1/HashMap.h
+
+D:/CLionProjects/SO_Tema1/HashMap.h
+
+D:/CLionProjects/SO_Tema1/List.h
+stdio.h
+-
+
+D:/CLionProjects/SO_Tema1/main.c
+windows.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+HashMap.h
+D:/CLionProjects/SO_Tema1/HashMap.h
+List.h
+D:/CLionProjects/SO_Tema1/List.h
+

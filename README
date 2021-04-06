@@ -1,0 +1,52 @@
+Nume: Draghicescu Adrian
+Grupă: 331CB
+
+					Tema 1 SO
+
+Organizare
+	Paresez fisierul de intrare linie cu linei verificand daca incepe cu una din 
+directive daca nu este procesata si pentru a inlocui define-urie si afisata.
+
+	In cazul in care linia incepe cu #define stochez simbolul si mapping-ul intr un hashmap
+si fiecare linie care nu condine o directiva specificata in enunt este impartita in tokeni dupa
+lista de caractere specificata in enunt, iar fiecare token este cautat in hashmap (in O(1)).
+
+Consideri că tema este utilă?
+De implementat unu mini-preprocesor, da.
+De descifrat ce vrea checker-ul si coding style-ul de la mine, nu.
+
+Consideri implementarea naivă, eficientă, se putea mai bine?
+Cosider ca implementarea este eficinata 
+
+Implementare
+	Tot enuntul temei este implementat.
+	Am presupus ca toate liniile, numele fisierelor, define urile din linie de comanda vor fi sub
+256 de caractere, chiar si dupa ce sunt inlocuite define urile,
+
+Dificultăți întâmpinate
+1. Verificarea coding style ului din checker
+	Am pierdut mai bine de 5 ore incercand sa fac cheker ul sa treaca primul test.
+De ce nu am facut facut bine de pe parcurs? Asta am facut... dupa am trecut pe Linux unde 
+imi apareau niste erori care nu aveau nici un sens, am ajuns sa modific bucati din cod pentru
+a scapa de ele. Mi se pare de a dreptul stupid.
+	Si la final, consider ca arta mai rau ca inainte.
+
+2. Faptul ca nu intelegam ce trebuie sa fac ca sa mearga teste 38 pe ambele VM uri.
+	Am ajuns sa ies cu exit(12) din functia in care esueaza malloc-ul deoarece daca
+propagam pana in main nu trecea pe Linux de nici-o culoarea, nu stiu de ce.
+	La un momendat nici nu mai programam, modificam lucrurile fara nici un sens, poate
+o merge, zici ca rezolvam un puzzel.
+
+3. Timpul
+	Am lucarat 50+ ore la tema asa. Tema a fost destul de complexa si apar 
+deificutati datatorita folosirii masinilor virtuale si verificarea ficarui aspect
+2 locuri.
+	Plus mult timp pierdut cu coding style ul.
+
+Cum se compilează și cum se rulează?
+Conform enuntului.
+
+Bibliografie
+-
+Git
+-

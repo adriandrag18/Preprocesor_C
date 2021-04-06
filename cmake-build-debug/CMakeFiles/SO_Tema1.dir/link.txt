@@ -1,0 +1,3 @@
+C:\Users\Adrian\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.6948.80\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\SO_Tema1.dir/objects.a
+"D:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe" cr CMakeFiles\SO_Tema1.dir/objects.a @CMakeFiles\SO_Tema1.dir\objects1.rsp
+"D:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe" -g   -Wl,--whole-archive CMakeFiles\SO_Tema1.dir/objects.a -Wl,--no-whole-archive  -o SO_Tema1.exe -Wl,--out-implib,libSO_Tema1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SO_Tema1.dir\linklibs.rsp
